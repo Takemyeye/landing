@@ -11,20 +11,184 @@
       <header>
         <div class="container">
           <div class="leftContainer">
-              <div class="logo">Logo</div>
+              <div class="logo">Gym <img src="img/gymcom.png" alt=""></div>
           </div>
           <div class="rightCintainer">
-            <h3>MENU <i class="fa-solid fa-arrow-down"></i></h3>
+            <h3 id="menuToggle">MENU <i class="fa-solid fa-arrow-down"></i></h3>
             <h3>PAGES</h3>
             <h3>WHY</h3>
-            <h3>PRICING</h3>
             <h3>BLOG</h3>
           </div>
-          <div class="btn"><h4>REQUEST DEMO</h4></div>
+          <div class="btn"><h4>REQUEST SCHEDULE</h4></div>
+          <div id="hideBare" class="hideBare">
+            <h3>home</h3>
+            <h3>about</h3>
+            <h3>contact us</h3>
+          </div>
         </div>
       </header>
       <main>
-
+        <div class="text">
+          <h1>Find</h1>
+          <div class="video">
+            <video src="video/fire.mp4" autoPlay loop muted playsInline></video>
+          </div>
+          <h1>Your Personal</h1>
+          <H5></H5>
+        </div>
+        <div class="text">
+          <h1>Gym or Fitness Trainer</h1>
+          <div class="video2">
+            <video src="video/video_gym.mp4" autoPlay loop muted playsInline></video>
+          </div>
+        </div>
+        <div class="main-container">
+          <div class="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="card">
+                    <div class="title">
+                      <img src="img/gymcom.png" alt="sad">
+                      <h2>Basic Membership</h2>
+                    </div>
+                    <div class="price">
+                      <h1>$49/mo</h1>
+                      <h5>Access to all basic gym facilities and equipment.</h5>
+                    </div>
+                    <div class="includes">
+                      <h3>Includes:</h3>
+                      <h5><i class="fa-solid fa-check"></i> Access to gym floor</h5>
+                      <h5><i class="fa-solid fa-check"></i> Basic group classes</h5>
+                      <h5><i class="fa-solid fa-check"></i> Locker room access</h5>
+                    </div>
+                    <div class="btn">
+                      <h4>Join Now</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="card">
+                    <div class="title">
+                      <img src="img/gymcom.png" alt="sad">
+                      <h2>Premium Membership</h2>
+                    </div>
+                    <div class="price">
+                      <h1>$99/mo</h1>
+                      <h5>Unlock premium gym amenities and personalized training.</h5>
+                    </div>
+                    <div class="includes">
+                      <h3>Includes:</h3>
+                      <h5><i class="fa-solid fa-check"></i> Access to all gym facilities.</h5>
+                      <h5><i class="fa-solid fa-check"></i> Unlimited group classes.</h5>
+                      <h5><i class="fa-solid fa-check"></i> Personal training sessions.</h5>
+                      <h5><i class="fa-solid fa-check"></i> Sauna and spa access.</h5>
+                    </div>
+                    <div class="btn">
+                      <h4>Join Now</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">    
+                  <div class="card">
+                    <div class="title">
+                      <img src="img/gymcom.png" alt="sad">
+                      <h2>Family Membership</h2>
+                    </div>
+                    <div class="price">
+                      <h1>$149/mo</h1>
+                      <h5>Bring the whole family and enjoy premium gym amenities.</h5>
+                    </div>
+                    <div class="includes">
+                      <h3>Includes:</h3>
+                      <h5><i class="fa-solid fa-check"></i> Access for up to 4 family members.</h5>
+                      <h5><i class="fa-solid fa-check"></i> Unlimited group classes.</h5>
+                      <h5><i class="fa-solid fa-check"></i> Personal training sessions.</h5>
+                      <h5><i class="fa-solid fa-check"></i> Sauna, spa, and kids' zone access.</h5>
+                    </div>
+                    <div class="btn">
+                      <h4>Join Now</h4>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <button class="carousel-control prev" onclick="prevSlide()">&#10094;</button>
+            <button class="carousel-control next" onclick="nextSlide()">&#10095;</button>
+          </div>
+          <div class="additional">
+            <div class="title">
+              <img src="img/gymcom.png" alt="sad">
+              <h2>Additional Amenities</h2>
+            </div>
+            <div class="price">
+              <h5>Explore our additional gym amenities and services.</h5>
+            </div>
+            <div class="includes">
+              <h3>Includes:</h3>
+              <h5><i class="fa-solid fa-check"></i> Nutrition Coaching.</h5>
+              <h5><i class="fa-solid fa-check"></i> Massage Therapy.</h5>
+              <h5><i class="fa-solid fa-check"></i> Yoga and Pilates Classes.</h5>
+              <h5><i class="fa-solid fa-check"></i> Kids' Play Area.</h5>
+            </div>
+            <div class="btn">
+              <h4>Explore more</h4>
+            </div>
+          </div>
+        </div>
+        <div class="block">
+          <h1>Here, you can also find</h1>
+          <h3>Discover a range of premium services at our gym, tailored to help you achieve your fitness and wellness goals</h3>
+          <div class="block-container">
+            <div class="category">
+              <div class="title">
+                <div class="fa">
+                  <i class="fa-solid fa-gift"></i>
+                </div>
+                <h2>Massage Therapy</h2>
+              </div>
+              <h3>Relax and rejuvenate with our expert massage therapists.</h3>
+              <div class="btn">
+                <h4>Book Now</h4>
+              </div>
+            </div>
+            <div class="category">
+              <div class="title">
+                <div class="fa">
+                  <i class="fa-solid fa-person-breastfeeding"></i>
+                </div>
+                <h2>Nutrition Coaching</h2>
+              </div>
+              <h3>Achieve your fitness goals with personalized nutrition guidance.</h3>
+              <div class="btn">
+                <h4>Get Started</h4>
+              </div>
+            </div>
+            <div class="category">
+              <div class="title">
+                <div class="fa">
+                  <i class="fa-solid fa-fire"></i>
+                </div>
+                <h2>Yoga and Pilates</h2>
+              </div>
+              <h3>Improve your flexibility, strength, and balance with our classes.</h3>
+              <div class="btn">
+                <h4>Join Now</h4>
+              </div>
+            </div>
+          </div>
+        </div>
       </main>
+
+        <script>
+          document.getElementById('menuToggle').addEventListener('click', function() {
+            var hideBare = document.getElementById('hideBare');
+            if (hideBare.style.display === 'none' || hideBare.style.display === '') {
+              hideBare.style.display = 'flex';
+            } else {
+              hideBare.style.display = 'none';
+            }
+          });
+        </script>
+      <script src="script.js"></script>
+
   </body>
   </html>
